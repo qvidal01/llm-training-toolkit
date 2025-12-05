@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Training outputs
+outputs/
+*.gguf
+*.bin
+*.safetensors
+checkpoints/
+
+# Data (keep structure but not actual data)
+data/*.jsonl
+data/*.json
+!data/sample_dataset.jsonl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+unsloth_compiled_cache/
+llama.cpp/
